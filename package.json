@@ -1,0 +1,30 @@
+{
+  "name": "azure-openai-box",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d16sekine/azure-openai-box.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d16sekine/azure-openai-box/issues"
+  },
+  "homepage": "https://github.com/d16sekine/azure-openai-box#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.1",
+    "stdin-line": "^0.0.4",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11"
+  }
+}
