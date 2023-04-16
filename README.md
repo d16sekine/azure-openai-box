@@ -14,12 +14,12 @@ This is a sample code for [Azure Open AI API](https://azure.microsoft.com/en-us/
 - You need to be able to use [Azure Open AI API](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service).
 
 ## :computer:Setup
-- install the module
+- install the libraries
 ```
-yarn
+yarn install
 ```
 
-- set the environmental variables
+- set the environmental variables in `.env`
 ```
 cp .env_example .env
 ```
@@ -31,16 +31,23 @@ cp .env_example .env
 |AZURE_OPENAI_API_KEY|Azure OpenAI's API key|
 
 ## :technologist:Usage
-- Please execute the following command.
+
+- clone this repository.
+```
+git clone https://github.com/d16sekine/azure-openai-box.git
+```
+
+
+- execute the following command.
 ```
 yarn dev
 ```
 
-- Please enter your question into the terminal and the answer will be returned to you.
+- enter your question into the terminal and the answer will be returned to you.
 
 
 ## :blue_book:Note
-Conversation history will be deleted upon completion of processing.
+- Conversation history will be deleted upon completion of processing.
 
 ## :bulb:License
 This project is licensed under the terms of the MIT license.
