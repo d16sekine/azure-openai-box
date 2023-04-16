@@ -15,6 +15,12 @@ This is a sample code for [Azure Open AI API](https://azure.microsoft.com/en-us/
 - You need to be able to use [Azure Open AI API](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service).
 
 ## :computer:Setup
+
+- clone this repository.
+```
+git clone https://github.com/d16sekine/azure-openai-box.git
+```
+
 - install the libraries
 ```
 yarn install
@@ -32,12 +38,6 @@ cp .env_example .env
 |AZURE_OPENAI_API_KEY|Azure OpenAI's API key|
 
 ## :technologist:Usage
-
-- clone this repository.
-```
-git clone https://github.com/d16sekine/azure-openai-box.git
-```
-
 
 - execute the following command.
 ```
