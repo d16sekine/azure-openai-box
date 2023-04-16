@@ -11,6 +11,7 @@ This is a sample code for [Azure Open AI API](https://azure.microsoft.com/en-us/
 
 ## :gear:Requirements
 
+- Node.js v18 or later
 - You need to be able to use [Azure Open AI API](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service).
 
 ## :computer:Setup
